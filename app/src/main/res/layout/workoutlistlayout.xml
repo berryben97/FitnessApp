@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/exercisegif"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="0.11" />
+
+        <TextView
+            android:id="@+id/exercisename"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="101dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:text="TextView2"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/numberofreps"
+            android:layout_width="310dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/exercisename"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="101dp"
+            android:layout_marginTop="0dp"
+            android:text="TextView"
+            android:textAlignment="center" />
+
+    </RelativeLayout>
+</RelativeLayout>

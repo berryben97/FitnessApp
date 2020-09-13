@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FitnessApp</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="already_registrated">Already Registrated.</string>
+    <string name="bodyweight">Bodyweight</string>
+
+    <string name="very_severely_underweight">Very severely underweight.</string>
+    <string name="severely_underweight">Severely underweight.</string>
+    <string name="underweight">Underweight.</string>
+    <string name="normal">Normal (healthy weight).</string>
+    <string name="overweight">Overweight.</string>
+    <string name="obese_class_i">Obese Class i (Moderately obese).</string>
+    <string name="obese_class_ii">Obese Class ii (Severely obese).</string>
+    <string name="obese_class_iii">Obese Class iii (Very severely obese).</string>
+</resources>

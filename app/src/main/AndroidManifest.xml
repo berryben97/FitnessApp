@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ben.fitnessapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainMenuActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ExerciseActivity" />
+        <activity android:name=".PlannerActivity" />
+        <activity android:name=".AccountActivity" />
+        <activity android:name=".SignUpActivity"
+            android:parentActivityName=".AccountActivity"/>
+        <activity android:name=".ExerciseChoiceActivity" />
+        <activity android:name=".DetailsOfExercises" />
+        <activity android:name=".ListOfMealOrWorkoutActivity" />
+        <activity android:name=".MealActivity" />
+        <activity android:name=".WorkoutActivity" />
+        <activity
+            android:name=".popup_workout"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".ProfileActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".UpdateBMI"
+            android:parentActivityName=".ProfileActivity"/>
+        <activity android:name=".CalorieCounter"
+            android:parentActivityName=".ProfileActivity"/>
+    </application>
+
+</manifest>

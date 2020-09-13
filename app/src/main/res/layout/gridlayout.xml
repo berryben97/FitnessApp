@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp">
+
+    <View
+        android:id="@+id/gridView"
+        android:layout_width="wrap_content"
+        android:layout_height="158dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#80000000"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:id="@+id/home_images"
+        android:layout_width="383dp"
+        android:layout_height="158dp"
+        android:alpha="0.7"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/home_texts"
+        android:layout_width="383dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:layout_centerVertical="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+</RelativeLayout>
